@@ -28,6 +28,9 @@ export default defineNuxtConfig({
     supabaseUrl: process.env.SUPABASE_URL,
     supabaseKey: process.env.SUPABASE_KEY,
   },
+  nitro: {
+    preset: 'netlify_edge'
+  },
   vite: {
     vue: {
       template: {
