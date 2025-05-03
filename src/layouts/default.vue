@@ -12,7 +12,9 @@
         </ul>
       </nav>
     </header>
-    <NuxtPage />
+    <v-app>
+      <NuxtPage />
+    </v-app>
     <footer>Some copyright things</footer>
   </div>
 </template>

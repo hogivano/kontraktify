@@ -12,9 +12,13 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "@pinia/nuxt": "^0.5.5",
-    "nuxt": "^3.14.1592",
+    "@supabase/supabase-js": "^2.49.4",
+    "docxtemplater": "^3.61.1",
+    "nuxt": "^3.17.1",
     "pinia": "^2.3.0",
+    "pizzip": "^3.1.8",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
@@ -23,11 +27,15 @@
     "@nuxt/eslint-config": "^0.5.7",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "eslint": "^9.16.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-tailwindcss": "^3.17.5",
-    "vite-plugin-eslint": "^1.8.1"
+    "nitropack": "^2.11.11",
+    "prettier": "^3.5.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-vuetify": "^2.1.1",
+    "vuetify": "^3.8.3"
   },
   "pnpm": {
     "overrides": {
